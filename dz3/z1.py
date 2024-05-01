@@ -40,7 +40,9 @@ while True:
         elif n == '/':
             if b_1 == 0:
                 raise ZeroDivisionError("Деление на ноль!")
-            razdel(a_1, b_1)
+                continue
+            else:
+                razdel(a_1, b_1)
         elif n == '^':
             exp(a_1, b_1)
         elif n == quit:
