@@ -10,7 +10,7 @@ def average_num(list_num: list) -> float:
 assert average_num([1, 2, 3]) == 2.0
 assert average_num([-1, -2, -3]) == -2.0
 assert average_num([1, 1, 1]) == 1
-assert average_num([1, 2, '3']) == 3.0
+assert average_num([1, 2, '3']) == 2.0
 assert average_num([1, 3, 4, 2]) == 2.5
 assert average_num([1, 2.5, 3, 4.2, 5]) == 3.14
 assert average_num([1.5, 2.5, 3.5]) == 2.5
